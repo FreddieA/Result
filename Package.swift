@@ -10,5 +10,5 @@ let package = Package(
         .target(name: "Result", dependencies: [], path: "Result"),
         .testTarget(name: "ResultTests", dependencies: ["Result"]),
     ],
-    swiftLanguageVersions: [4]
+    swiftLanguageVersions: [4.2]
 )
